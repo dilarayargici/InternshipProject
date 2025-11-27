@@ -1,23 +1,19 @@
-# Energy Power Plant Control Panel (SCADA Dashboard)
+# Energy Power Plant Control Panel (Frontend Dashboard)
 
-This project is a web-based SCADA/Dashboard application designed to monitor real-time energy data from Wind Power Plants (RES) and Solar Power Plants (GES). It was developed as part of an internship project at Konelsis.
+This project is the frontend implementation of a SCADA/Control Panel designed to monitor energy data from Wind Power Plants (RES) and Solar Power Plants (GES). It was developed as part of an internship project at Konelsis.
 
 ## 🚀 Features
 
-* **Real-Time Monitoring:** Reads instant data from field analyzers using the Modbus TCP protocol.
-* **Dynamic Visualization:** Displays instant active power (kW) and daily production (MWh) in card format.
-* **Mobile-First Design:** Fully responsive UI/UX optimized for tablets and mobile devices.
-* **Detailed Analytics:** Lists detailed electrical parameters such as voltage, current, frequency, and reactive power for each power plant.
+* **Responsive UI:** A mobile-first design that adapts seamlessly to phones, tablets, and desktops using Tailwind CSS.
+* **Dashboard Design:** Clear visualization of critical energy metrics like Active Power (kW) and Daily Production (MWh).
+* **Interactive Elements:** Collapsible data tables for detailed analysis of voltage, current, and frequency phases.
+* **Component-Based Structure:** Modular cards for different power plants (Daghan, Yatmahan, Turkmenhan, Yasemin).
 
 ## 🛠 Tech Stack
 
-* **Backend:** Python, FastAPI, Pymodbus (for Modbus TCP communication)
-* **Frontend:** HTML5, CSS3, JavaScript
-* **Styling:** Tailwind CSS
-* **Data Format:** JSON API
+* **HTML5:** Semantic markup structure.
+* **CSS3:** Custom styling + **Tailwind CSS** framework.
+* **JavaScript:** Interactive DOM manipulation for collapsible components.
+* **Icons:** FontAwesome integration.
 
-## ⚙️ Installation & Usage
-
-1. Install the required Python libraries:
-   ```bash
-   pip install fastapi uvicorn pymodbus
+## 📂 Project Structure
